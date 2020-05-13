@@ -8,12 +8,11 @@ h1, h2, h5 {
 }
 
 .jumbotron {
-  background-image: linear-gradient(to right, black, darkslateblue);
-  color: cornflowerblue;
+  background-image: linear-gradient(to right, black, rgb(19, 21, 37), rgb(50, 43, 99));
 }
 
-.navbar-dark {
-  background-color: rgb(47, 54, 94);
+.navbar {
+  background-color: rgb(19, 21, 37);
 }
 
 footer h5 {
