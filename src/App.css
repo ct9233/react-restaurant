@@ -3,12 +3,15 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-h1, h2, h5 {
+h1, h2, h3, h5 {
   font-family: 'Girassol', cursive;
 }
 
 .jumbotron {
   background-image: linear-gradient(to right, black, rgb(19, 21, 37), rgb(50, 43, 99));
+  margin-bottom: 0px;
+  padding-top: 30px !important;
+  padding-bottom: 30px !important;
 }
 
 .navbar {
@@ -21,4 +24,14 @@ footer h5 {
 
 .carousel-item > img { 
   width: 100%; 
+}
+
+.carousel-caption {
+  background-color: rgba(0, 0, 65, 0.50);
+  color: rgb(124, 195, 253);
+}
+
+.card-header {
+  background-color: #488cf3;
+  color: black;
 }

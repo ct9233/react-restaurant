@@ -25,10 +25,10 @@ class Header extends Component {
 				<Jumbotron fluid>
 					<div className='container'>
 						<div className='row'>
-							<div className='col'>
+							<div className='col pl-1'>
 								<img
 									src='/assets/images/ristorante_header.jpg'
-									height='180'
+									height='140'
 									align='left'
 									alt='Ristorante'
 								/>
