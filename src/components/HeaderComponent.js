@@ -30,6 +30,7 @@ class Header extends Component {
 									src='/assets/images/ristorante_header.jpg'
 									height='140'
 									align='left'
+									className='rounded'
 									alt='Ristorante'
 								/>
 							</div>
@@ -40,8 +41,8 @@ class Header extends Component {
 					<NavbarBrand className='mr-md-2' href='/'>
 						<img
 							src='/assets/images/R-blue-large-letters.jpg'
-							height='30'
-							width='30'
+							height='35'
+							width='35'
 							alt='Ristorante Logo'
 						/>
 					</NavbarBrand>

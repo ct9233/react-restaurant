@@ -23,7 +23,7 @@ function Footer(props) {
                     </div>
                     <div className='col-12 col-sm-4 text-center'>
                         <a role='button' className='btn btn-link' href='tel:+19999999999'> <i className='fa fa-phone' /> 999-999-9999</a> {<br />}
-                        <a role='button' className='btn btn-link' href='#'> <i className='fa fa-map-marker' /> 9999 NW 100th Ave. {<br />} Anytown, USA 12345 </a>
+                        <Link to='/contact'> <i className='fa fa-map-marker' /> 9999 NW 100th Ave. {<br />} Anytown, USA 12345 </Link>
                     </div>
                 </div>
             </div>

@@ -4,6 +4,7 @@ import Footer from './FooterComponent';
 import Home from './HomeComponent';
 import Menu from './MenuComponent';
 import Story from './StoryComponent';
+import Contact from './ContactComponent';
 import { Switch, Route, Redirect } from 'react-router-dom';
 
 class Main extends Component {
@@ -30,6 +31,7 @@ class Main extends Component {
                     <Route path='/home' component={HomePage} />
                     <Route exact path='/menu' render={() => <Menu />} />
                     <Route exact path='/story' render={() => <Story />} />
+                    <Route exact path='/contact' render={() => <Contact />} />
                     <Redirect to='/home' />
                 </Switch>
                 <Footer />
