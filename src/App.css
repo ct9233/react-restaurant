@@ -31,7 +31,7 @@ footer h5 {
   color: rgb(124, 195, 253);
 }
 
-.card-header {
+.card-header, .modal-header {
   background-color: #488cf3;
   color: black;
 }

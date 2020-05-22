@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import { Nav, Navbar, NavbarBrand, NavbarToggler, Collapse, NavItem, Jumbotron } from 'reactstrap';
+import { Nav, Navbar, NavbarBrand, NavbarToggler, Collapse, NavItem,
+	Jumbotron, Button, Modal, ModalHeader, ModalBody } from 'reactstrap';
 import { NavLink } from 'react-router-dom';
 
 class Header extends Component {
@@ -8,16 +9,24 @@ class Header extends Component {
         super(props);
 
         this.state = {
-            isNavOpen: false
+			isNavOpen: false,
+			isModalOpen: false
 		};
 		this.toggleNav = this.toggleNav.bind(this);
+		this.toggleModal = this.toggleModal.bind(this);
     }
 
     toggleNav() {
         this.setState({
             isNavOpen: !this.state.isNavOpen
         });
-    }
+	}
+	
+	toggleModal() {
+		this.setState({
+			isModalOpen: !this.state.isModalOpen
+		});
+	}
 
     render() {
         return (
@@ -77,13 +86,28 @@ class Header extends Component {
 								<NavLink
 									className='nav-link'
 									to='/contact'
-									activeStyle={{ color: "#488cf3" }}>
+									activeStyle={{ color: '#488cf3' }}>
 									<i className='fa fa-address-card fa-lg' /> Contact
 								</NavLink>
 							</NavItem>
 						</Nav>
+						<span className='ml-auto'>
+							<Button 
+								onClick={this.toggleModal}
+								style={{color: 'black', backgroundColor: '#488cf3', borderColor: 'darkslategrey'}}>
+								Make Reservation
+							</Button>
+						</span>
 					</Collapse>
 				</Navbar>
+				<Modal isOpen={this.state.isModalOpen} toggle={this.toggleModal} centered>
+					<ModalHeader toggle={this.toggleModal}>
+						Reservation
+					</ModalHeader>
+					<ModalBody>
+
+					</ModalBody>
+				</Modal>
 			</React.Fragment>
 		);
     }
