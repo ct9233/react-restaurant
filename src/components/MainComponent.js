@@ -31,11 +31,11 @@ class Main extends Component {
                 <TransitionGroup>
                     <CSSTransition key={this.props.location.key} classNames='page' timeout={400}>
                         <Switch>
-                            <Route path='/home' component={HomePage} />
-                            <Route exact path='/menu' render={() => <Menu />} />
-                            <Route exact path='/story' render={() => <Story />} />
-                            <Route exact path='/contact' render={() => <Contact />} />
-                            <Redirect to='/home' />
+                            <Route path='react-restaurant/home' component={HomePage} />
+                            <Route exact path='react-restaurant/menu' render={() => <Menu />} />
+                            <Route exact path='react-restaurant/story' render={() => <Story />} />
+                            <Route exact path='react-restaurant/contact' render={() => <Contact />} />
+                            <Redirect to='react-restaurant/home' />
                         </Switch>
                     </CSSTransition>
                 </TransitionGroup>
