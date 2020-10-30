@@ -71,7 +71,7 @@ class Header extends Component {
 				<Navbar dark sticky='top' expand='md'>
 					<NavbarBrand className='mr-md-2' href='/'>
 						<img
-							src='/assets/images/R-blue-large-letters.jpg'
+							src={`${process.env.PUBLIC_URL}/assets/images/R-blue-large-letters.jpg`}
 							height='35'
 							width='35'
 							alt='Ristorante Logo'

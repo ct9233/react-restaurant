@@ -8,7 +8,7 @@ function Story(props) {
             <div className='row'>
                 <img
                     className='d-block w-100'
-                    src='/assets/images/story_restaurant.jpg'
+                    src={`${process.env.PUBLIC_URL}/assets/images/story_restaurant.jpg`}
                     alt='Story'
                 />
             </div>
