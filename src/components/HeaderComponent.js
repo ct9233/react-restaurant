@@ -58,7 +58,7 @@ class Header extends Component {
 						<div className='row'>
 							<div className='col pl-1'>
 								<img
-									src={`${process.env.PUBLIC_URL}/assets/images/ristorante_header.jpg`}
+									src='%PUBLIC_URL%/assets/images/ristorante_header.jpg'
 									height='140'
 									align='left'
 									className='rounded'
