@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "611c8f44410af4cc31eb07378d434624",
+    "revision": "1cbf73b52c7cdf4abe60930722230d7d",
     "url": "/react-restaurant/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-restaurant/static/css/2.5794d81a.chunk.css"
   },
   {
-    "revision": "223704e5babb903015de",
-    "url": "/react-restaurant/static/css/main.070b492c.chunk.css"
+    "revision": "78b3e2c8a6613c509667",
+    "url": "/react-restaurant/static/css/main.2077a7ea.chunk.css"
   },
   {
     "revision": "f2c68e34441378b973d3",
@@ -20,7 +20,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-restaurant/static/js/2.379d2eef.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "223704e5babb903015de",
+    "revision": "78b3e2c8a6613c509667",
     "url": "/react-restaurant/static/js/main.5c1506e1.chunk.js"
   },
   {
@@ -54,6 +54,22 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "53cfe23bccf2dc4b4cfafa1f30181fdc",
     "url": "/react-restaurant/static/media/girassol-latin-400.53cfe23b.woff"
+  },
+  {
+    "revision": "92391805ed0b2a77c15855d5d8d9ee25",
+    "url": "/react-restaurant/static/media/menu_appetizer.92391805.jpg"
+  },
+  {
+    "revision": "ff0762a00d75e0a79e864e8b8070f454",
+    "url": "/react-restaurant/static/media/menu_dessert.ff0762a0.jpg"
+  },
+  {
+    "revision": "f671e88e0bba23b75507feb5868131ca",
+    "url": "/react-restaurant/static/media/menu_mains.f671e88e.jpg"
+  },
+  {
+    "revision": "487a42aa15eef7224d8e8a881aaf75c6",
+    "url": "/react-restaurant/static/media/menu_pizza.487a42aa.jpg"
   },
   {
     "revision": "5cb7edfceb233100075dc9a1e12e8da3",
