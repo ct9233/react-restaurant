@@ -35,7 +35,7 @@ class Main extends Component {
                             <Route exact path='/menu' render={() => <Menu />} />
                             <Route exact path='/story' render={() => <Story />} />
                             <Route exact path='/contact' render={() => <Contact />} />
-                            <Redirect to={`${process.env.PUBLIC_URL}`} />
+                            <Redirect to='/' />
                         </Switch>
                     </CSSTransition>
                 </TransitionGroup>
