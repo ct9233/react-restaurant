@@ -65,22 +65,22 @@ footer h5 {
 }
 
 .appetizer {
-  background-image: url('/assets/images/menu_appetizer.jpg');
+  background-image: url('./assets/images/menu_appetizer.jpg');
   height: 400px;
 }
   
 .mains {
-  background-image: url('/assets/images/menu_mains.jpg');
+  background-image: url('./assets/images/menu_mains.jpg');
   height: 400px;
 }
   
 .pizza {
-  background-image: url('/assets/images/menu_pizza.jpg');
+  background-image: url('./assets/images/menu_pizza.jpg');
   height: 400px;
 }
 
 .dessert {
-  background-image: url('/assets/images/menu_dessert.jpg');
+  background-image: url('./assets/images/menu_dessert.jpg');
   height: 400px;
 }
 
