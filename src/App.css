@@ -8,7 +8,7 @@ h1, h2, h3, h5 {
 }
 
 .jumbotron {
-  background-image: linear-gradient(to right, black, rgb(19, 21, 37), rgb(50, 43, 99));
+  background-image: linear-gradient(to right, black, 75%, rgb(50, 43, 99));
   margin-bottom: 0px;
   padding-top: 30px !important;
   padding-bottom: 30px !important;
