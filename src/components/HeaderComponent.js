@@ -114,7 +114,7 @@ class Header extends Component {
 							</NavItem>
 						</Nav>
 						<span className='ml-auto'>
-							<Button
+							{/* <Button
 								onClick={this.toggleModal}
 								style={{
 									color: 'black',
@@ -122,7 +122,7 @@ class Header extends Component {
 									borderColor: 'darkslategrey',
 								}}>
 								Make Reservation
-							</Button>
+							</Button> */}
 						</span>
 					</Collapse>
 				</Navbar>
